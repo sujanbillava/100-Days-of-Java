@@ -69,6 +69,7 @@ public class SmartCalculator
                 break;
             case 5:
                 System.out.println("Exit");
+                break;
             default:
                 System.out.println("Invalid Choice");
 
