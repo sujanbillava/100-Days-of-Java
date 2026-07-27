@@ -49,11 +49,10 @@ public class Array1
             
         }
         System.out.println("Total="+total);
-        for(i=0;i<mark.length;i++)
-        {
-            average=(total)/mark.length;
+        
+        average=(total)/mark.length;
             
-        }
+        
         System.out.println("Average="+average);
 
     }
