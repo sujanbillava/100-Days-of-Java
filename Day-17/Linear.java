@@ -25,14 +25,11 @@ public class Linear
                     System.out.println("RollNo is Found at Position"+i);
                 }
             }
-            if(found)
+            if(!found)
             {
-                System.out.println("Found");
-            }
-            else{
                 System.out.println("Not Found");
             }
-
+            
         }
     }
 }

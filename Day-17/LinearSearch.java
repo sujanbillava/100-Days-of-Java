@@ -28,12 +28,9 @@ public class LinearSearch
             }
             
         }
-        if(found)
+        if(!found)
         {
-            System.out.println("Found ");
-        }
-        else
-        {
+           
             System.out.println("Not Found");
         }
         
