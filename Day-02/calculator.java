@@ -34,12 +34,5 @@ public class calculator
             default:
                 System.out.println("Code Run Sucessful");
         }
-<<<<<<< HEAD
-        
-        sc.close();
-=======
-        sc.close();
-
->>>>>>> 226063092055f68fa981e1cc5a3d82d15c5a4262
-    }    
+    }
 }

@@ -16,7 +16,7 @@ public class SecondLargest
             System.out.println("Enter the Elements=");
             array[i]=sc.nextInt();
         }
-        System.out.println(array.length);
+        
         int Largest=array[0];
         int SecondLargest=Largest;
         for(i=0;i<array.length;i++)
@@ -31,10 +31,11 @@ public class SecondLargest
             {
                 SecondLargest=array[i];
             }
-            System.out.println("Largest="+Largest);
-            System.out.println("Second Largest="+SecondLargest);
-
+            
         }
+        System.out.println("Largest="+Largest);
+        System.out.println("Second Largest="+SecondLargest);
+
         
     }
         
