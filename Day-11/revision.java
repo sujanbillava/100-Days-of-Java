@@ -105,10 +105,7 @@ public class revision
                 {
                     System.out.println("Even/Odd = Odd");
                 }
-                
-
-
-               
+                        
         }
         for(int i=1;i<=print;i++)
         {
