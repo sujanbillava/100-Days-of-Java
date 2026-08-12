@@ -22,31 +22,30 @@ public class arraylist1
         for(int value:num)
         {
              sum=sum+value;
-             System.out.println(sum);
+            
         }
+        System.out.println(sum);
         int highest=0;
         for(int value:num)
         {
-            while(highest<value)
+            if(highest<value)
             {
                 highest=value;
             }
             
         }
         System.out.println("Highest="+highest);
-        int lowest=0;
+        int lowest=num.get(0);
         for(int value:num)
         {
-            while(lowest>value)
+            if(lowest>value)
             {
                 lowest=value;
 
             }
-            
-
         }
         System.out.println("Lowest=="+lowest);
-        double average=sum/num.size();
+        double average=(double)sum/num.size();
         System.out.println("Average="+average);
         System.out.println("Enter the Element to Search=");
         int con=sc.nextInt();
