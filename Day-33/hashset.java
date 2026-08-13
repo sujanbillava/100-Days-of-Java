@@ -8,7 +8,7 @@ public class hashset
         HashSet<Integer> set=new HashSet<>();
         for(int i=0;i<10;i++)
         {
-            System.out.println("Enter 10 Numbers=");
+            System.out.println("Enter a Number=");
             int num=sc.nextInt();
             set.add(num);
         }
