@@ -18,8 +18,8 @@ public class linkedhashset
         String  search=sc.nextLine();
         System.out.println("Topic="+topics.contains(search));
         System.out.println("Remove ay one Topic");
-        String rem=sc.nextLine();
-        topics.remove(rem);
+        String removetopic=sc.nextLine();
+        topics.remove(removetopic);
         System.out.println(topics);
         for(String val:topics)
         {
