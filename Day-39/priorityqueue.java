@@ -13,7 +13,7 @@ public class priorityqueue
         }
         System.out.println(queue);
         System.out.println("Display Highest Priority Patient");
-        queue.peek();
+        System.out.println(queue.peek());
         queue.poll();
         System.out.print("After the Removal of highest Priority");
         System.out.println(queue);
