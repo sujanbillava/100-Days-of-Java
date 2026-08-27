@@ -40,10 +40,13 @@ public class Fuctionalinterface
         {
             Predicate<Student>eligible=s-> s.marks>=45;
             System.out.println(eligible.test(list.get(i)));
+            System.out.println();
             Consumer<Student> display=s-> System.out.println(s);
             display.accept(list.get(i));
+            System.out.println();
             Function<Student,String>getname= s-> s.name;
             System.out.println(getname.apply(list.get(i)));
+            System.out.println();
             Supplier<String> clg=()->"Gitam University";
             System.out.println(clg.get());
        
