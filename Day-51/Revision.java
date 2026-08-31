@@ -60,7 +60,7 @@ public class Revision
             n.accept(list.get(i));
             Supplier<String>college=()->"GITAM University";
             System.out.println(college.get());
-            Function<Student,String>ex=name->"Student="+name;
+            Function<Student,String>ex=student->student.name;
             System.out.println(ex.apply(list.get(i)));
         }
         list.stream()
