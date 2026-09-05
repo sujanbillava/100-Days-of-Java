@@ -6,7 +6,7 @@ public class Stream
     {
         Scanner sc=new Scanner(System.in);
         ArrayList<Integer>list=new ArrayList<>();
-        for(int i=0;i<8;i++)
+        for(int i=0;i<10;i++)
         {
             System.out.println("Enter Number");
             int num=sc.nextInt();
