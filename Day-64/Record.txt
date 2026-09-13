@@ -1,0 +1,4 @@
+Sujan	AIML	95
+Ram	CSEC	75
+Manoj	CSDS	65
+
