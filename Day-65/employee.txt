@@ -1,0 +1,4 @@
+Sujan	Developer	85000
+Ayush	Design	33333
+Bangera	DataScientist	56000
+Bhuvan	Cybersecurity	85000
