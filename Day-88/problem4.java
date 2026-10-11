@@ -8,9 +8,9 @@ public class problem4
         {
             return 0;
         }
-        sumdigit(n/10);
         
-        return (n%10+sumdigit(n/10));
+        sumdigit(n/10);
+        return n%10+sumdigit(n/10);
     }   
     public static void main(String[] args) 
     {
