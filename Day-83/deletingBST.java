@@ -103,6 +103,8 @@ public class deletingBST
         
         System.out.println("Inorder");
         inorder(root);
+
+        
     }
     
 }
